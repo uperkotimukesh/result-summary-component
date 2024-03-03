@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-fluid{
+    background-color:#fff;
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 2rem;
+}
+
+.box{
+    background: linear-gradient(to bottom, #066aff, #0077ff, #2b06ff);
+    color: #fff;
+    width: 800px;
+    padding: 8%;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.box>div{
+    background: linear-gradient(to bottom, #212dd3, #3532f700);
+    padding: 15% 0 15% 0;
+    border-radius: 50%;
+    width: 200px;
+    height:200px;
+    margin: 0 auto 20% auto;
+}
+
+.result{
+    margin-bottom: 15%;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.marks{
+    font-size: 5em;
+    font-weight:700 ;
+    color: #ffffff;
+}
+
+.total{
+    color: beige;
+}
+
+.division{
+    color: #ffffff;
+    margin-bottom: 8px;
+    font-size: 3.2em;
+}
+
+.grade{
+    font-size: 0.9rem;
+}
+
+.summary{
+    margin-bottom: 10%;
+}
+
+.box1{
+    padding:8px 6px 8px 6px ;
+    width:75%;
+    color: black;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 77%, 0.247);
+    gap: 50%;
+}
+
+.grid1{
+    background-color: rgb(255, 197, 197);
+    color: #ff2c2c;
+    display: flex;
+    justify-content: space-between;
+    padding:6%;
+    border-radius: 5%;
+    align-items: center;
+    margin: 7%;
+    width:210px;
+    
+}
+
+.align{
+    display: flex;
+    align-items: center;
+    gap:5%;
+    width: 250px;
+}
+
+.grid2{
+    background-color: rgb(255, 248, 188);
+    color: rgb(228, 205, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 6%;
+    border-radius: 5%;
+    align-items: center;
+    margin: 7%;
+}
+
+.grid3{
+    background-color: rgb(131, 255, 168);
+    color: rgb(0, 107, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 6%;
+    border-radius: 5%;
+    align-items: center;
+    margin: 7%;
+}
+
+.grid4{
+    background-color: rgb(117, 191, 255);
+    color: rgb(53, 73, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 6%;
+    border-radius: 5%;
+    align-items: center;
+    margin: 7%;
+}
+
+.mark{
+    color: black;
+}
+
+.reaction{
+    font-weight: 500;
+}
+
+.memory{
+    font-weight: 500;
+}
+
+.verbal{
+    font-weight: 500;
+}
+
+.visual{
+    font-weight: 500;
+}
+
+.btn{
+    color:#fff;
+    width: 100%;
+    padding: 8px 0 8px 0;
+    border: none;
+    border-radius: 0.9rem;
+    font-size: 0.9em;
+    background-color: #1d1d1d;
+}
+
+.btn:hover{
+    background-color: #ff2c2c;
+}
